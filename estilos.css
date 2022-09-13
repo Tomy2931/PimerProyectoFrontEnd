@@ -22,6 +22,9 @@ background-color: rgba(176, 0, 0, 0.756);
 h3{
     text-decoration:underline;
 }
+p{
+    color: rgb(255, 221, 0);
+}
 .imagen1{
     width: 50%;
     border-radius: 100px;
