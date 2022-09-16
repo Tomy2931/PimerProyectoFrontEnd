@@ -17,13 +17,16 @@ height: 400px;
 padding: 10px;
 text-align: center;
 float: left;
-background-color: rgba(176, 0, 0, 0.756);
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h3{
     text-decoration:underline;
 }
 p{
-    color: rgb(255, 221, 0);
+    color: rgb(0, 146, 237);
 }
 .imagen1{
     width: 50%;
